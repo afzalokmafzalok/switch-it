@@ -51,12 +51,12 @@ We currently only support, and have tested the MQTT features with broker provide
 1. Go to HiveMQ website, and sign up for their free MQTT cloud service. [HiveMQ Cloud](https://www.hivemq.com/mqtt-cloud-broker/)
 2. Create authentication for your MQTT broker, username, and password.
 3. Go to swith-it! app, and enter:
-    - Username
-    - Password
+    - Username esp_6430ca
+    - Password 12345678
     - Hostname (HiveMQ broker server)
-    - Port (8883 is the default port)
+    - Port (5 is the default port)
     - Keep Alive Period (20)
-4. MQTT client ID will be auto generated based on your device UUID.
+4. MQTT client ID will be auto generated based on your device UUID.192.168.4.2
 5. Press connect, if connection is successful, globe icon on top right will turn purple.
 6. Go back to main screen, the app will automatically contact all devices through websocket, and send MQTT setup command.
 7. If setup is successful, MQTT status icon in each device card will turn purple.
